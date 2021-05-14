@@ -1,0 +1,130 @@
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  font-family: "Flexo-Demi", arial, sans-serif;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  background-color: #e3350d;
+  padding: 20px;
+}
+
+.pokemonCard {
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  padding: 28px;
+}
+
+.image {
+  text-align: center;
+  background-color: lightgray;
+}
+
+.image img {
+  transition: transform 200ms ease-in-out;
+  transform-origin: left top;
+}
+
+.image:hover img {
+  transform: scale(1.25);
+}
+
+.pokemonList {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.info h5 {
+  color: #313131;
+  font-size: 145%;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.info p {
+  color: #919191;
+  font-size: 80%;
+  padding-top: 2px;
+}
+
+.habilidades {
+  color: white;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.habilidades span {
+  padding: 2 20;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.grass {
+  background-color: #9bcc50;
+}
+
+.poison {
+  background-color: #b97fc9;
+}
+
+.fire {
+  background-color: #fd7d24;
+}
+.water {
+  background-color: #4592c4;
+}
+
+.normal {
+  background-color: #a4acaf;
+}
+
+.electric {
+  background-color: #eed535;
+}
+
+.flying {
+  background-color: #3dc7ef;
+}
+
+.bug {
+  background-color: #729f3f;
+}
+
+.fairy {
+  background-color: #fdb9e9;
+}
+
+.ground {
+  background-color: #f7de3f;
+}
+
+.fighting {
+  background-color: #d56723;
+}
+
+.psychic {
+  background-color: #f366b9;
+}
+
+.rock {
+  background-color: #a38c21;
+}
+
+#loadMore {
+  text-align: center;
+  height: 50px;
+  background-color: #9bcc50;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
